@@ -23,7 +23,8 @@
     background: var(--dark);
     color: var(--text);
     font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.7;
     overflow-x: hidden;
   }
   .hero {
@@ -33,7 +34,7 @@
     border-bottom: 1px solid var(--grid);
   }
   .hero h1 {
-    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-size: clamp(2.4rem, 5vw, 4rem);
     color: var(--accent1);
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -41,7 +42,7 @@
   }
   .hero .sub {
     color: var(--sub);
-    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     letter-spacing: 1px;
   }
   .hero .badge {
@@ -51,7 +52,7 @@
     border: 1px solid var(--accent5);
     border-radius: 20px;
     color: var(--accent5);
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   nav {
     position: sticky;
@@ -69,8 +70,8 @@
   nav a {
     color: var(--sub);
     text-decoration: none;
-    font-size: 0.85rem;
-    padding: 6px 14px;
+    font-size: 1.05rem;
+    padding: 8px 18px;
     border-radius: 6px;
     transition: all 0.2s;
     border: 1px solid transparent;
@@ -90,19 +91,19 @@
     border-bottom: 1px solid var(--grid);
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--accent1);
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     letter-spacing: 2px;
   }
   h2 .num {
     color: var(--accent4);
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-right: 8px;
   }
   .section-sub {
     color: var(--sub);
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-bottom: 30px;
   }
   .stats-grid {
@@ -124,18 +125,18 @@
     border-color: var(--accent1);
   }
   .stat-card .value {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: var(--accent1);
   }
   .stat-card .value.down { color: var(--accent2); }
   .stat-card .label {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--sub);
-    margin-top: 4px;
+    margin-top: 6px;
   }
   .stat-card .change {
-    font-size: 0.85rem;
+    font-size: 1.05rem;
     margin-top: 6px;
   }
   .stat-card .change.neg { color: var(--accent2); }
@@ -155,12 +156,13 @@
   }
   .insight-card h3 {
     color: var(--accent5);
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin-bottom: 12px;
   }
   .insight-card p {
     color: var(--sub);
-    line-height: 1.8;
+    font-size: 1.1rem;
+    line-height: 1.9;
   }
   .insight-card .highlight {
     color: var(--accent4);
@@ -176,12 +178,13 @@
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
   thead th {
     background: var(--card);
     color: var(--accent1);
-    padding: 12px 10px;
+    padding: 14px 12px;
+    font-size: 1.05rem;
     text-align: left;
     border-bottom: 2px solid var(--accent1);
     position: sticky;
@@ -205,7 +208,7 @@
     display: inline-block;
     padding: 2px 8px;
     border-radius: 4px;
-    font-size: 0.75rem;
+    font-size: 0.95rem;
     font-weight: bold;
   }
   .tag.undervalued { background: rgba(0,212,170,0.15); color: var(--accent1); }
@@ -225,7 +228,7 @@
     text-align: center;
     padding: 40px;
     color: var(--sub);
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .footer a { color: var(--accent1); text-decoration: none; }
   .pulse {
@@ -266,6 +269,7 @@
   <a href="#deals">Best Deals</a>
   <a href="#negotiate">Negotiation Targets</a>
   <a href="#listings">All Listings</a>
+  <a href="dc.html" style="color:var(--accent5);border:1px solid var(--accent5);background:rgba(167,139,250,0.06);">DC Citywide Report &rarr;</a>
 </nav>
 
 <div class="container">
